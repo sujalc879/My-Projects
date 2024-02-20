@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #091540;
+    gap: 20px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: 0.5s;
+   
+     
+}
+
+.card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.card:not(:hover) {
+    filter: grayscale(100%);
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+}
