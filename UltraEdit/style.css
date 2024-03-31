@@ -1,0 +1,138 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+
+}
+
+.right ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: "Segoe UI";
+    cursor: pointer;
+
+}
+ 
+.first {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-family: sans-serif;
+     gap: 40px;
+     margin: 60px;
+    
+}
+
+.windows {
+    font-size: 50px;
+}
+
+.version {
+    font-size: 25px;
+    width: 980px;
+    text-align: center;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: rgb(0, 182, 209);
+    padding: 13px 22px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(17, 166, 189);
+}
+
+.hotfix {
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    margin: auto;
+}
+
+.hotfix img {
+    width: 55px;
+    margin: 0px 18px 0px 0px;
+}
+
+.hotfixpara {
+    margin: 0px 0px 0px 9px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    margin: 45px auto;
+    gap: 20px;
+
+}
+
+.items {
+    text-align: center;
+    background-color: rgb(249, 249, 249);
+    padding: 17px;
+    width: 300px;
+}
+
+.lang {
+    margin: 0px 0px 10px 0px;
+    font-size: 20px;
+}
+
+.langg {
+    margin: 0px 0px 73px 0px;
+    font-size: 20px;
+}
+
+ .green {
+    background-color: rgb(92, 184, 92);
+ }
+
+.green:hover {
+    background-color: rgb(78, 163, 78);
+}
+
+.sub-lang {
+    margin: 0px 0px 40px 0px;
+   
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.second {
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 1000px)  {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 50vw;
+        margin: 45px auto;
+        gap: 20px;
+        justify-items: center; }
+}
