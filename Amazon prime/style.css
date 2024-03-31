@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+header {
+    background-color: #00050d;
+}
+
+.navbar {
+    display: flex;
+    height: 60px;
+    width: 60vw;
+    margin: 0px auto;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.navbar :nth-child(2) {
+    margin: 0px 0px 0px 45px;
+}
+
+.navbar :nth-child(5) {
+    margin: 0px 45px 0px 0px;
+}
+
+.navbar span {
+    font-size: 18px;
+    color: #aaaaaa;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+}
+
+.navbar span h2 {
+    color: #dcdcdc;
+    font-weight: 500;
+}
+
+.first-sec {
+
+    height: 70vh;
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.background-first {
+    background-image: url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.welcome {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 75px 60px;
+}
+
+.welcome :nth-child(1) {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.welcome :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#join-prime {
+
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #0f79af;
+    color: white;
+    cursor: pointer;
+    padding: 10px 56px;
+    border: none;
+    border-radius: 4px;
+}
+
+
+.second-sec {
+    height: 70vh;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.background-second {
+
+    background-image: url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#rent-now {
+    margin: 30px 0px 0px 0px;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #0f79af;
+    color: white;
+    cursor: pointer;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 4px;
+}
+
+.third-sec {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    
+   
+}
+
+.channels {
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+    margin: 35px 29px 0px 90px;
+}
+
+.channels :nth-child(1) {
+    font-size: 45px;
+    font-weight: 400;
+}
+.channels :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.third-sec-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 15px 0px 0px 60px;
+    column-gap: 10px;
+    cursor: pointer;
+}
+
+.img :hover {
+    box-shadow: 0px 0px 10px 4px #000000;
+}
+
+.fourth-sec {
+    height: 70vh;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.background-fourth {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.welcome-fourth {
+    margin: -30px 0px 0px 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 75px 60px;
+    width: 45%;
+}
+
+.welcome-fourth :nth-child(1) {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.welcome-fourth :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#get-started {
+
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #0f79af;
+    color: white;
+    cursor: pointer;
+    padding: 10px 80px;
+    border: none;
+    border-radius: 4px;
+    margin: 30px 0px 0px 0px;
+}
+
+footer {
+    padding: 20px 0px 0px 0px;
+    height: 15vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+ footer div a {
+    text-decoration: none;
+    color: #0f79af;
+    margin: 0px 10px;
+    font-weight: 400;
+ }
+
+ footer > :nth-child(3) {
+    color: #949494;
+    font-weight: 400;
+    margin: 10px 0px 0px 0px ;
+ }
