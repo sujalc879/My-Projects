@@ -139,6 +139,12 @@
   position: relative;
 }
 
+.info:hover {
+  background-color: #f9e9ff;
+  scale: 1.05;
+  transition: all 0.5s;
+}
+
 .thumbnail {
   width: 30%;
   height: 100%;
