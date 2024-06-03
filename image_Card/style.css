@@ -5,6 +5,7 @@ body {
     height: 100vh;
     background: #091540;
     gap: 20px;
+    overflow: hidden;
 }
 
 .card {
