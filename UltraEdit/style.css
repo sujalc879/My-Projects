@@ -10,9 +10,9 @@ nav {
 }
 
 .right ul {
-    display: flex;
+   display: flex;
     gap: 30px;
-    align-items: center;
+    align-items: center; 
 
 }
 
