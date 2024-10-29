@@ -30,3 +30,19 @@ toggleBtn.addEventListener('click', function() {
         localStorage.setItem('theme', 'light');
     }
 });
+
+function sendEmail() {
+    Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "work.sujal.dev@gmail.com",
+        Password : "D2314FBB789AB57F9153716952B8EFF4A8DB",
+        To : 'work.sujal.dev@gmail.com',
+        From : "work.sujal.dev@gmail.com",
+        Subject : "This is the enquiry Mail",
+        Body : `Username : ${document.getElementById("name").value} <br>
+                User Email : ${document.getElementById("email").value} <br>
+                User Message : ${document.getElementById("message").value}`
+            }).then(
+      message => alert("Message Sent Successfully")
+    );
+}

@@ -46,7 +46,7 @@
         </div>
         <section id="contactme" class="contact-section">
             <h2>Contact Me</h2>
-            <form class="contact-form" action="your-form-handler.php" method="POST">
+            <form class="contact-form" onsubmit="sendEmail(); reset(); return false;" >
                 <div class="form-group">
                     <label for="name">Your Name</label>
                     <input type="text" id="name" name="name" placeholder="Enter your name" required>
@@ -115,6 +115,7 @@
             </div>
         </footer>
 
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
