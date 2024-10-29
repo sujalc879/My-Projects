@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prathamesh's Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="nav-bar">
+                <div class="logo-container">
+                    <div class="logo-text">Sujal Chaudhary</div>
+                </div>
+                <div class="nav-items">
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact Me</a></div>
+                </div>
+                  <!-- Dark Mode Toggle Button -->
+                <div class="toggle-theme">
+                  <button id="theme-toggle-btn">Night mode </button>
+                 </div>
+             </div>
+      </div>
+        <div class="hero-section">
+            <div class="faded-text">Sujal</div>
+            <div class="hero-section-left">
+                <div class="hero-section-heading">Hi! this side Sujal</div>
+                <div class="hero-section-sub-heading">
+                    I am a <span class="role"></span>
+                </div>
+                <div class="hero-section-description">
+                    I'm a software developer and here is my portfolio website. Here you'll learn about my journey as a software developer.
+                </div>
+                <div class="btn-pink" id="btn">Hire me</div>
+            </div>
+            <div class="hero-section-right">
+                <div class="user-image">
+                    <img width="180" src="Me.png" alt="" />
+                </div>
+            </div>
+        </div>
+        <section id="contactme" class="contact-section">
+            <h2>Contact Me</h2>
+            <form class="contact-form" action="your-form-handler.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-pink">Send Message</button>
+            </form>
+        </section>
+
+        <!--
+        <div class="project-section">
+            <h2 class="bold-proj">Projects</h2>
+            <div class="project-container">
+                <div class="project-card" id="1">
+                    <div class="project-1">
+                        <div class="project-content">
+                            <div class="project-skill">
+                                <i class="fa-brands fa-html5"></i>
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <i class="fa-brands fa-js"></i>
+                            </div>
+                            <h2 class="project-heading">tint and orange</h2>
+                            <div class="project-sub-heading">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo explicabo mollitia laudantium excepturi
+                            <div class="btn">
+                                <button class="btn-pink btn-project">Read More</button>
+                                <a href=""><i class="fa-solid fa-link"></i></a>
+                                <a href=""><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+         -->
+        <!--- footer ---->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-left">
+                    <h2>Sujal Chaudhary</h2>
+                    <p>Software Developer | Portfolio</p>
+                    <p>Crafting clean and efficient code for the web.</p>
+                </div>
+
+                <div class="footer-right">
+                    <div class="social-icons">
+                        <a href="https://github.com/sujalc879" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sujal-chaudhary-542a0431b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://mail.google.com/mail/work.sujal.dev@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <p class="contact-info">Contact me at : work.sujal.dev@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sujal Chaudhary. All rights reserved.</p>
+            </div>
+        </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
