@@ -21,7 +21,16 @@ if (currentTheme === 'dark') {
 }
 
 toggleBtn.addEventListener('click', function() {
-    body.classList.toggle('dark-mode');
+    
+    if (toggleBtn.innerHTML === "Dark Mode") {
+        
+        body.classList.add('dark-mode');
+        toggleBtn.innerHTML = "Light Mode"
+        
+    } else {
+        body.classList.remove('dark-mode')
+        toggleBtn.innerHTML = "Dark Mode"
+    }
 
     // Save the user's preference in localStorage
     if (body.classList.contains('dark-mode')) {
